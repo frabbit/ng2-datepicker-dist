@@ -1,0 +1,28 @@
+{
+  "name": "ng2-datepicker",
+  "version": "4.0.0",
+  "license": "MIT",
+  "authors": [
+    "Jan Kuri <jan@bleenco.com>"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^9",
+    "@angular/core": "^9",
+    "@angular/forms": "^9",
+    "date-fns": "^1.29.0",
+    "ngx-slimscroll": "https://github.com/frabbit/ngx-slimscroll-dist#v9.0.0",
+    "tslib": "^1.10.0"
+  },
+  "main": "bundles/ng2-datepicker.umd.js",
+  "module": "fesm5/ng2-datepicker.js",
+  "es2015": "fesm2015/ng2-datepicker.js",
+  "esm5": "esm5/ng2-datepicker.js",
+  "esm2015": "esm2015/ng2-datepicker.js",
+  "fesm5": "fesm5/ng2-datepicker.js",
+  "fesm2015": "fesm2015/ng2-datepicker.js",
+  "typings": "ng2-datepicker.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy. This is not allowed.\\nPlease delete and rebuild the package, without compiling with Ivy, before attempting to publish.\\n')\" && exit 1"
+  }
+}
